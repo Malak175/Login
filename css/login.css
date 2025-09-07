@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+section.login-container h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+section.login-container p.subtext{
+    color: #666;
+    margin-bottom: 20px;
+}
+section.login-container form div.input-group{
+    text-align: left;
+    margin-bottom: 15px;
+}
+section.login-container form div.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+section.login-container form div.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+section.login-container form div.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+section.login-container form div.options a.forgot-password {
+    color: #1da1f2;
+    text-decoration: none;
+}
+section.login-container form button.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+section.login-container form div.or-login {
+    margin: 15px 0;
+    color: #666;
+}
+section.login-container form div.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+section.login-container form div.social-login button.social-btn {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+section.login-container form div.social-login button.social-btn i {
+    margin-right: 8px;
+}
+section.login-container form p.register {
+    margin-top: 20px;
+}
+section.login-container form p.register a {
+    color: #1da1f2;
+    text-decoration: none;
+}

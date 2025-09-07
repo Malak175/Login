@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+section.auth-form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #1e1b2c;
+  color: white;
+  border-radius: 12px;
+}
+a{
+    color: #1da1f2;
+    text-decoration: none;
+}
+section form div.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+section form input,section form button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+section form div.password-wrapper {
+  position: relative;
+}
+section form div.password-wrapper input {
+  padding-right: 2.5rem;
+}
+section form div.password-wrapper i {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  cursor: pointer;
+  color: #1e1b2c;
+}
+section form label.checkbox {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+}
+section form label.checkbox input {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+section form label.checkbox a{
+    padding: 0px 0px 0px 15px;
+}
+section form button.btn {
+  background: #1da1f2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+section form button.btn:hover{
+    background-color: white;
+    color: #1da1f2;
+}
+section div.divider {
+  text-align: center;
+  margin: 1rem 0;
+  color: white;
+}
+section div.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+section div.social-login button.social-btn {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+section div.social-login button.social-btn i {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
